@@ -1,0 +1,1 @@
+cmd_/home/maximus/os_mini_project/kernel_ws/mochi_kernel/mem_alloc_kernel.mod := { echo  /home/maximus/os_mini_project/kernel_ws/mochi_kernel/mem_alloc_kernel.o;  echo; } > /home/maximus/os_mini_project/kernel_ws/mochi_kernel/mem_alloc_kernel.mod

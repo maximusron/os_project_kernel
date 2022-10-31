@@ -52,7 +52,12 @@ static void memCheck(int size)
 
 
 
-static int __init mochi_hw_init(void) {
+static int __init mem_alloc_init(void) {
+    // int k;
+    // while(1)
+    // {
+    //     k++;
+    // }
   printk(KERN_CRIT "Initializing Kernel...\n");
   printk(KERN_CRIT "The process is \"%s\" (pid %i)\n",
         current->comm, current->pid);
@@ -108,11 +113,12 @@ static int __init mochi_hw_init(void) {
   return OK;
 }
 
-static void __exit mochi_hw_exit(void) {
+
+
+static void __exit mem_alloc_exit(void) {
   printk(KERN_CRIT "Exiting Kernel Directive\n");
 }
 
-module_init(mochi_hw_init);
-//intermediate module
-module_exit(mochi_hw_exit);
+module_init(mem_alloc_init);
+module_exit(mem_alloc_exit);
 

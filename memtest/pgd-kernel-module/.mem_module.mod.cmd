@@ -1,0 +1,1 @@
+cmd_/home/maximus/os_mini_project/kernel_ws/memtest/pgd-kernel-module/mem_module.mod := { echo  /home/maximus/os_mini_project/kernel_ws/memtest/pgd-kernel-module/mem_module.o;  echo; } > /home/maximus/os_mini_project/kernel_ws/memtest/pgd-kernel-module/mem_module.mod

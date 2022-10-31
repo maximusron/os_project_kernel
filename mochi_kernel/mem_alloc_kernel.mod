@@ -1,0 +1,2 @@
+/home/maximus/os_mini_project/kernel_ws/mochi_kernel/mem_alloc_kernel.o
+
